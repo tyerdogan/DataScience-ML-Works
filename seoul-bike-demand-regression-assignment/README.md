@@ -23,7 +23,7 @@ This is an independent educational work; not affiliated with or endorsed by the 
 - **EDA & sanity checks:** inspect schema, missing values, basic distributions.
 - **Feature engineering:** parse `Date` and extract calendar features.
 - **Train/test split** and define `X` / `y`.
-- **Preprocessing (leakage-safe):** `ColumnTransformer` with scaling (numeric) + one-hot encoding (categorical), fit on train only.
+- **Preprocessing (leakage-safe):** `ColumnTransformer` with scaling (numeric) + one-hot encoding (categorical).
 - **Modeling:** baseline Linear Regression + regularization (Ridge/Lasso/ElasticNet).
 - **Evaluation:** metrics on original scale (R² / MAE / RMSE) with log-target inversion.
 - **Validation:** K-Fold CV using `Pipeline(preprocessor, model)` to avoid leakage within folds.
