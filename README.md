@@ -9,7 +9,7 @@ Open the notebook in Google Colab (recommended) or run locally.
 ## Acknowledgements
 This repository primarily contains assignment notebooks from the Udemy course
 **"Data Science and Machine Learning 2026 "** by **Atıl Samancıoğlu**.
-Thanks to the instructor for the structured curriculum and the assignment prompts that guided this work.
+Thanks to the instructor for the structured curriculum and the assignment prompts that will guide this work.
 
 ## Disclaimer
 These are independent educational works and are not affiliated with or endorsed by the original data providers or course platforms.
