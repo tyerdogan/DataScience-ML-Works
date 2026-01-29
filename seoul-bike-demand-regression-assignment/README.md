@@ -15,13 +15,13 @@ Hourly aggregated bike rental demand data from Seoul’s public bike-sharing sys
 
 ---
 
-## Project structure
-seoul-bike-demand-regression-assignment/
-├── README.md
-├── DATASET.md
-├── requirements.txt
-├── RegressionBikeData.ipynb
-└── data/
-└── SeoulBikeData.csv   (or your dataset file)
+## Methodology 
+- **EDA & sanity checks:** inspect schema, missing values, basic distributions.
+- **Feature engineering:** parse `Date` and extract calendar features.
+- **Train/test split** and define `X` / `y`.
+- **Preprocessing (leakage-safe):** `ColumnTransformer` with scaling (numeric) + one-hot encoding (categorical), fit on train only.
+- **Modeling:** baseline Linear Regression + regularization (Ridge/Lasso/ElasticNet).
+- **Evaluation:** metrics on original scale (R² / MAE / RMSE) with log-target inversion.
+- **Validation:** K-Fold CV using `Pipeline(preprocessor, model)` to avoid leakage within folds.
 
 
