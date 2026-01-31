@@ -1,4 +1,4 @@
-# SVM Regression on Diamonds Dataset 💎
+# SVM Regression on Diamonds Dataset 
 
 This repository contains a machine learning notebook focused on **regression using Support Vector Machines (SVM)** applied to the well-known **Diamonds dataset**.
 
