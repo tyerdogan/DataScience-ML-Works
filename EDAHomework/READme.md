@@ -25,4 +25,4 @@ Target distribution:
 
 The dataset appears **synthetic**:
   - feature values look realistic and include missingness/skew (good for practice),
-  - but **there may be little/no true relationship** between features and the target (**Premium Amount**).
+  - but **there may be little/no true relationship** between features and the target (**Premium Amount**) (I am opened for disccusion)
