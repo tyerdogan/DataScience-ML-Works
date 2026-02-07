@@ -18,7 +18,7 @@ The target variable is a continuous crowdedness value.
 
 ## Notes
 RandomizedSearchCV was used to efficiently tune model hyperparameters over a large search space.
-----------------------------------------------------------
+
 # Random Forest Classification – Income Prediction
 
 ## Overview
